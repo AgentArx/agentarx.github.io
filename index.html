@@ -1,10 +1,234 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AgentArx - Automated Security Testing Framework for Agentic AI Systems">
+    <meta name="keywords" content="AI Security, Agent Security, Agentic Systems, Security Testing, Penetration Testing, AI Agents">
+    <title>AgentArx - Automated Security Testing for Agentic Systems</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Welcome to my GitHub Pages site.</p>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="logo.svg" alt="AgentArx Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>AgentArx</h1>
+                        <p>Automated Security Testing Framework</p>
+                    </div>
+                </div>
+                <nav class="social-links">
+                    <a href="https://www.linkedin.com/pulse/agentic-approach-securing-ai-applications-agent-arx-bccle" target="_blank">LinkedIn</a>
+                    <a href="https://medium.com/@agent.arx.sec/securing-agentic-systems-introducing-agentarx-d347ba2e6194" target="_blank">Medium</a>
+                    <a href="#youtube" class="youtube-placeholder">YouTube (Coming Soon)</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Secure Your Agentic AI Systems</h2>
+                <p>The first automated security testing framework designed specifically for multi-agent systems and AI applications</p>
+                <a href="#contact" class="cta-button">Get Started with a Pilot</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">What is AgentArx?</h2>
+            <div class="about-content">
+                <p>
+                    AgentArx is a cutting-edge security testing framework built to protect the next generation of AI systems. 
+                    As organizations deploy increasingly sophisticated agentic systems—AI agents that can reason, use tools, 
+                    and interact with each other—traditional security tools fall short.
+                </p>
+                <p>
+                    AgentArx takes an agentic approach to security testing, using AI-powered agents to discover, analyze, 
+                    and exploit vulnerabilities in your multi-agent systems before attackers do. Our framework helps you 
+                    identify prompt injection attacks, privilege escalation, data leakage, and inter-agent communication 
+                    vulnerabilities.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Human-Readable Attack Scenarios</h3>
+                    <p>
+                        Write security test cases in simple, human-readable JSON format. No complex code required—perfect 
+                        for security analysts, product managers, and citizen developers to contribute attack scenarios.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Powerful MCP Server Integration</h3>
+                    <p>
+                        Built on the Model Context Protocol with support for bash, Python, and extensible tools. 
+                        Add custom tools as needed to test your unique system architecture and use cases.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Intelligent Agent Architecture</h3>
+                    <p>
+                        Four-stage testing pipeline: Reconnaissance discovers attack surface, Analysis identifies 
+                        vulnerabilities, Attack executes exploits, and Reporting delivers actionable findings.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👁️</div>
+                    <h3>Complete Visibility</h3>
+                    <p>
+                        Full transparency into agent reasoning and tool calls. Understand exactly how vulnerabilities 
+                        were discovered and exploited, with detailed logs and evidence for your security team.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>CI/CD Integration</h3>
+                    <p>
+                        Seamlessly integrate into your development pipeline with GitHub Actions, GitLab CI, and other 
+                        automation tools. Catch security issues before they reach production.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>DefectDojo Integration</h3>
+                    <p>
+                        Export findings directly to DefectDojo for vulnerability management, tracking, and reporting. 
+                        Keep your security team aligned with existing workflows.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="workflow">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="workflow-steps">
+                <div class="workflow-step">
+                    <div class="step-number">1</div>
+                    <h3>Recon</h3>
+                    <p>Agents discover your system's attack surface, mapping endpoints, agents, and data flows</p>
+                </div>
+                <div class="arrow">→</div>
+                <div class="workflow-step">
+                    <div class="step-number">2</div>
+                    <h3>Analyze</h3>
+                    <p>AI-powered analysis identifies potential vulnerabilities and attack vectors</p>
+                </div>
+                <div class="arrow">→</div>
+                <div class="workflow-step">
+                    <div class="step-number">3</div>
+                    <h3>Attack</h3>
+                    <p>Controlled exploitation validates vulnerabilities with real proof-of-concept attacks</p>
+                </div>
+                <div class="arrow">→</div>
+                <div class="workflow-step">
+                    <div class="step-number">4</div>
+                    <h3>Report</h3>
+                    <p>Comprehensive findings with severity ratings, evidence, and remediation guidance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demos" class="demos">
+        <div class="container">
+            <h2 class="section-title">See AgentArx in Action</h2>
+            <div class="demo-content">
+                <p>
+                    Watch how AgentArx discovers and exploits real vulnerabilities in agentic systems, 
+                    from prompt injection to privilege escalation attacks.
+                </p>
+                <div class="demo-placeholder">
+                    <h3>📺 YouTube Channel Coming Soon</h3>
+                    <p>We're creating detailed demo videos showcasing AgentArx capabilities. Subscribe to stay updated!</p>
+                </div>
+                <p class="mt-20">
+                    Read our in-depth articles on LinkedIn and Medium to learn more about the security challenges 
+                    facing agentic systems and how AgentArx addresses them.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="use-cases" class="use-cases">
+        <div class="container">
+            <h2 class="section-title">Who Uses AgentArx?</h2>
+            <div class="about-content">
+                <p>
+                    <strong>AI Startups</strong> building multi-agent platforms need to prove security to investors and customers.
+                </p>
+                <p>
+                    <strong>Enterprise Teams</strong> deploying agentic AI systems require continuous security validation.
+                </p>
+                <p>
+                    <strong>Security Researchers</strong> studying AI vulnerabilities need a framework for systematic testing.
+                </p>
+                <p>
+                    <strong>Development Teams</strong> want to shift security left and catch issues before production.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Ready to Secure Your Agentic Systems?</h2>
+                <p>
+                    Let's collaborate on a case study or pilot project. Whether you're building the next generation 
+                    of AI agents or securing existing systems, we can help.
+                </p>
+                <p>
+                    Contact us to discuss your security needs, schedule a demo, or explore partnership opportunities.
+                </p>
+                <a href="mailto:agent.arx.sec@gmail.com" class="contact-email">agent.arx.sec@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 AgentArx. Open source security for the agentic era.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
